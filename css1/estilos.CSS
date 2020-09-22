@@ -1,0 +1,94 @@
+*{
+   margin:0; 
+   padding:0;
+}
+body {
+    background:white;
+    margin:20px auto;
+ }
+h1 {
+      color:blue;
+      text-align:center;
+ }
+h2 {
+      font-size:20px;
+      text-align:center;
+      font-family:calibri;
+     
+ }
+h3 {
+     color:blue;
+    font-size:40px;
+      text-align:center;
+      font-family:calibri;
+      text-decoration:underline;
+}
+     
+header, h1, h2,h3, div,nav,.imagenes .main {
+        width:90%;
+        max-width:1000px;
+        margin:20px auto;
+}
+header nav {
+       background:#528FD5;
+       overflow:hidden;
+}
+
+header nav ul {
+       list-style:none;
+}
+
+header nav ul li {
+       float:left;
+ }
+header nav ul li a {
+        font-size:20px;
+        padding:10px 20px;
+        display:block;
+        color:#fff;
+        text-decoration:none;
+        margin:10px;
+}
+header nav ul li a:hover {
+        background:#75ACEC;
+}
+     
+.container-body {
+          display:flex;
+          
+}
+.colum1 img{
+        weidth:100px;
+        height:100px;
+        margin:10px;
+}
+.colum2 img{
+        weidth:100px;
+        height:100px;
+        margin:10px;
+}
+.colum3 img{
+        weidth:100px;
+        height:100px; 
+        margin:10px;
+}
+.colum4 img {
+        weidth:100px;
+        height:100px;
+        margin:10px; 
+}
+.colum1 a:hover, .colum2 a:hover, .colum3 a:hover, .colum4 a:hover{
+        background:#00FF00;
+        text-decoration:none;
+}
+.colum1 a, .colum2 a, .colum3 a, .colum4 a{
+        text-decoration:none;
+        font-size:20px;
+        font-family:calibri;
+        color:#FFF;
+        background:#0000FF;
+}
+footer {
+        
+       text-align:center;
+ }
